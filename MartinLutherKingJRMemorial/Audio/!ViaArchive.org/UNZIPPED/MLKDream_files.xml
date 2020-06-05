@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="MLKDream.ffp" source="derivative">
+    <format>Flac FingerPrint</format>
+    <original>MLKDream.flac</original>
+    <mtime>1414361653</mtime>
+    <size>47</size>
+    <md5>8cfad327261d8911127de2725d98dc9b</md5>
+    <crc32>fe278bbc</crc32>
+    <sha1>fc5c50eb532e6a20769b35becf39571c7a92ce56</sha1>
+  </file>
+  <file name="MLKDream.flac" source="derivative">
+    <format>Flac</format>
+    <original>MLKDream.wav</original>
+    <md5>10dda62a0e4a6d40150da6b7f09cded4</md5>
+    <mtime>1108279935</mtime>
+    <size>28603375</size>
+    <crc32>ad43f4d1</crc32>
+    <sha1>26f15b283ac0a967d73ce5958546474ed5de1aae</sha1>
+    <length>987.43</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream.md5" source="derivative">
+    <format>Checksums</format>
+    <original>MLKDream.flac</original>
+    <mtime>1414361654</mtime>
+    <size>48</size>
+    <md5>f5b2c891c02df3449d1362afa01436a7</md5>
+    <crc32>89edf6f4</crc32>
+    <sha1>66f036cd56e243bc90e2d6aa48f27f0dc65aae3e</sha1>
+  </file>
+  <file name="MLKDream.mp3" source="derivative">
+    <creator>Dr. Martin Luther King Jr.</creator>
+    <title>I Have a Dream</title>
+    <license>Licensed to the public under http://creativecommons.org/licenses/publicdomain/ verify at http://www.archive.org/audio/audio-details-db.php?collection=opensource_audio&amp;collectionid=MLKDream</license>
+    <bitrate>76.1</bitrate>
+    <length>16:27</length>
+    <format>VBR MP3</format>
+    <original>MLKDream.wav</original>
+    <mtime>1414361652</mtime>
+    <size>9398038</size>
+    <md5>9575eb243305b71f6cc5666fa73b3d4d</md5>
+    <crc32>51339a1a</crc32>
+    <sha1>33c4102234541ffe4f081750d90b928af587b9ca</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream.ogg" source="derivative">
+    <track>0</track>
+    <creator>Dr. Martin Luther King Jr.</creator>
+    <title>I Have a Dream</title>
+    <original>MLKDream.wav</original>
+    <format>Ogg Vorbis</format>
+    <license>Licensed to the public under http://creativecommons.org/licenses/publicdomain/ verify at http://www.archive.org/audio/audio-details-db.php?collection=opensource_audio&amp;collectionid=MLKDream</license>
+    <md5>ce9dd48bf6dc8e597fd38c0b2600bcc4</md5>
+    <mtime>1108281482</mtime>
+    <size>10572930</size>
+    <crc32>9f782749</crc32>
+    <sha1>78dcf3f31bc7a976dff5c58dce973e21425f16b6</sha1>
+    <length>987.43</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream.png" source="derivative">
+    <format>PNG</format>
+    <original>MLKDream.flac</original>
+    <mtime>1414361730</mtime>
+    <size>9077</size>
+    <md5>45a58b42cc5753ff175d210024b86e22</md5>
+    <crc32>953705dd</crc32>
+    <sha1>6a5468e14fb93a768d7725977c879c3ff0198827</sha1>
+  </file>
+  <file name="MLKDream.wav" source="original">
+    <track>0</track>
+    <creator>Dr. Martin Luther King Jr.</creator>
+    <title>I Have a Dream</title>
+    <format>WAVE</format>
+    <license>Licensed to the public under http://creativecommons.org/licenses/publicdomain/ verify at http://www.archive.org/audio/audio-details-db.php?collection=opensource_audio&amp;collectionid=MLKDream</license>
+    <md5>4d50d99cf859badcd02a9850f609eeb3</md5>
+    <mtime>1108279935</mtime>
+    <size>43545694</size>
+    <crc32>98edf4cf</crc32>
+    <sha1>54c8279a92dcfe75431040c0c925dc7682c0a67f</sha1>
+    <length>987.43</length>
+    <height>0</height>
+    <width>0</width>
+    <external-identifier>urn:acoustid:f0fdf643-c535-4fa7-858c-2fae8cfde9e0</external-identifier>
+  </file>
+  <file name="MLKDream_64kb.m3u" source="derivative">
+    <format>64Kbps M3U</format>
+    <original>MLKDream_64kb.mp3</original>
+    <md5>9e3a1ce431d139235111f1facb3549dd</md5>
+    <mtime>1108281549</mtime>
+    <size>59</size>
+    <crc32>4f9e6ceb</crc32>
+    <sha1>041eef0d0b34ad9551aab54f408bfb4877fb28e0</sha1>
+  </file>
+  <file name="MLKDream_64kb.mp3" source="derivative">
+    <track>0</track>
+    <creator>Dr. Martin Luther King Jr.</creator>
+    <length>16:27</length>
+    <title>I Have a Dream</title>
+    <original>MLKDream.wav</original>
+    <bitrate>64</bitrate>
+    <format>64Kbps MP3</format>
+    <license>Licensed to the public under http://creativecommons.org/licenses/publicdomain/ verify at http://www.archive.org/audio/audio-details-db.php?collection=opensource_audio&amp;collectionid=MLKDream</license>
+    <md5>cb281d3f79e95a3f3157ba6aa8cdc35f</md5>
+    <mtime>1108281536</mtime>
+    <size>7901102</size>
+    <crc32>46f2bb9c</crc32>
+    <sha1>c7461004962c6649dcf85f862bbbd048a2e50fbf</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream_64kb_mp3.zip" source="derivative">
+    <format>64Kbps MP3 ZIP</format>
+    <original>MLKDream_64kb.mp3</original>
+    <md5>94174d64024a40b89ac4e990134f8cd5</md5>
+    <mtime>1108281548</mtime>
+    <size>7901268</size>
+    <crc32>4f8fcb2e</crc32>
+    <sha1>aed0467d8ad469ec3b74d3dfd272e6012c56d25c</sha1>
+    <length>987.66</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream_archive.torrent" source="metadata">
+    <btih>224a3a6945a7199d16604c5ee154321d2f597c6b</btih>
+    <mtime>1578928908</mtime>
+    <size>9098</size>
+    <md5>8c589a28e1fe87fb07272247abac6bca</md5>
+    <crc32>60d0a195</crc32>
+    <sha1>4e329da35e8230cdbd7b771c9fa0dbec0f8b2544</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="MLKDream_files.xml" source="metadata">
+    <format>Metadata</format>
+    <md5>a519a86351706c9af4c3e0f4e6c79032</md5>
+  </file>
+  <file name="MLKDream_flac.zip" source="derivative">
+    <format>Flac ZIP</format>
+    <original>MLKDream.flac</original>
+    <md5>40bbe3dc74052b13164af2fcc883d3ba</md5>
+    <mtime>1108281542</mtime>
+    <size>28603533</size>
+    <crc32>fdae6ab9</crc32>
+    <sha1>4b7e45cf40f2ca1a28d60665e04f880c52b5f6d3</sha1>
+  </file>
+  <file name="MLKDream_meta.xml" source="metadata">
+    <format>Metadata</format>
+    <mtime>1547518000</mtime>
+    <size>1538</size>
+    <md5>8f7e0c25ee7c1f84f84a5cfafb806185</md5>
+    <crc32>1b40afbf</crc32>
+    <sha1>58c364c9a37e4112f540cd540206095c16422ac2</sha1>
+  </file>
+  <file name="MLKDream_reviews.xml" source="metadata">
+    <format>Metadata</format>
+    <mtime>1578928904</mtime>
+    <size>6657</size>
+    <md5>c8625f24cc161d5dd866850aa8ac17d0</md5>
+    <crc32>5d36cde0</crc32>
+    <sha1>093605f496f20c703f1f4adbf93a48e1aafe6037</sha1>
+  </file>
+  <file name="MLKDream_vbr.m3u" source="derivative">
+    <format>VBR M3U</format>
+    <original>MLKDream_vbr.mp3</original>
+    <md5>45a90454d5f505d82fb4c003b4ccd808</md5>
+    <mtime>1108281538</mtime>
+    <size>58</size>
+    <crc32>87b862ca</crc32>
+    <sha1>b113d40ed0a2a1cad439363d2738ecf3c69b6a33</sha1>
+  </file>
+  <file name="MLKDream_vbr.mp3" source="derivative">
+    <track>0</track>
+    <creator>Dr. Martin Luther King Jr.</creator>
+    <length>16:25</length>
+    <title>I Have a Dream</title>
+    <original>MLKDream.wav</original>
+    <bitrate>128</bitrate>
+    <format>VBR MP3</format>
+    <license>Licensed to the public under http://creativecommons.org/licenses/publicdomain/ verify at http://www.archive.org/audio/audio-details-db.php?collection=opensource_audio&amp;collectionid=MLKDream</license>
+    <md5>6d68f725a771d0d1de71465966d75967</md5>
+    <mtime>1108281388</mtime>
+    <size>15764507</size>
+    <crc32>08ac01ac</crc32>
+    <sha1>fb6fa5d561e09a287a24231ee41addded7f6912f</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MLKDream_vbr.png" source="derivative">
+    <format>PNG</format>
+    <original>MLKDream_vbr.mp3</original>
+    <mtime>1414361693</mtime>
+    <size>9164</size>
+    <md5>2244c09e0655cfc6a68b908d81c1b8bf</md5>
+    <crc32>fc133bfb</crc32>
+    <sha1>9929253ec55e9fc2ae23b1097e7bbbe163eff2eb</sha1>
+  </file>
+  <file name="MLKDream_vbr_mp3.zip" source="derivative">
+    <format>VBR ZIP</format>
+    <original>MLKDream_vbr.mp3</original>
+    <md5>6d082581b10eaa90aceeb3d756000df4</md5>
+    <mtime>1108281539</mtime>
+    <size>15764671</size>
+    <crc32>73cbc3a2</crc32>
+    <sha1>acf8218db5cb00afd064042a1a138fb72617006d</sha1>
+    <length>985.32</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1541492313</mtime>
+    <size>2526</size>
+    <md5>ed9c98daef9d35c7e8b71ecfe9e5cca2</md5>
+    <crc32>f2bce0a2</crc32>
+    <sha1>f1af39f5297aa6090c9fbfc2a9563a1c70d114bf</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+</files>
