@@ -1,0 +1,1415 @@
+<!--- start of script !--->
+<!DOCTYPE html>
+<HTML><!-- Master branch !-->
+<BODY><!-- Submaster branch !-->
+<head> <!-- external and internal resources needed for page !-->
+<!-- .ico !--><!-- 021!--<!-- Favicon !--><link rel="icon" href="Graphics/Favicon/MLKMemorialFaviconFull.ico" type="image/x-icon"/><!-- The favicon for this page !--><!-- external resource !-->
+<!-- No longer necessary !--><!-- .js !--> <!-- 02 !--<!-- JavaScript file 1 !--><!--<script type="text/javascript" src="ExpandAll_ScriptV1.00.js"></script><!-- the script needed to automatically expand all detail tags !--><!-- external resource !-->
+<!-- .js !--><!-- 03 !--><!-- JavaScript file !--><!--<script type="text/javascript" src="Sourcebase_SNUScriptStarter_V1.00.js"></script><!-- The full JavaScript SNU sheet, modify to your liking !-->
+<!-- No longer necessary !--><!-- .css !--><!-- 04 !--<!-- Stylesheet 1 !--><!--<link rel="stylesheet" type="text/css" href="2DStart_Style_StickySideBarVersion1.01.css"> <!-- The stylesheet for the sidebar !--><!-- external resource !-->
+<!-- No longer necessary !--><!-- .css !--><!-- 05 !--<!-- Stylesheet 2 !--><!--<link rel="stylesheet" type="text/css" href="TOP_NAVIGATION_BAR_V1.0.css"> <!-- The stylesheet for the top navigation pane !--><!-- external resource !-->
+<!-- .css !--><!-- 06 !--<!-- Stylesheet 3 !--><!--<link rel="stylesheet" type="text/css" href="Sourcebase_SNUScriptStarter_V1.01.css"> <!-- Make sure to modify this CSS to your liking !--><!-- The stylesheet for the white text !--><!-- external resource !-->
+<!-- Start of Metadata !-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Viewport detection for average computer, and mobile !-->
+<meta name="description" content="Martin Luther King Jr was a prominent civil rights activist during the civil rights movement in the United States of America in the 1950s and 1960s. This page is a memorial for his efforts."><!-- Description search engines display when searching the site via search !-->
+<meta name="keywords" content="SNU, memorial, MLK, civil rights, activist, article, keyword7, keyword8"><!-- Search keywords (don't put too many, anywhere between 1 and 8 is fine) !-->
+<meta name="author" content="SeanWallaWalla/SNU, SNU.net, SeanPM, Sean Patrick Myrick">
+<!-- End of Metadata !-->
+</head>
+<HEAD>
+<meta><!-- Meta character set section !-->
+	<!-- meta charset="ANSI"> <!-- page encoding minimum !-->
+	<!-- meta charset="ASCII"> <!-- page encoding  !-->
+	<!-- meta charset="UC-2"> <!-- page encoding  !-->
+	<!-- meta charset="UTF-8"> <!-- page encoding  !-->
+	<meta charset="UTF-16"> <!-- Page encoding main !-->
+	<!-- meta charset="UTF-32"> <!-- page encoding  !-->
+</meta> <!-- End of meta character set section !-->
+<!-- Stylesheet 1 !--><style>/
+/* Grid system */
+.grid-container {
+	display: grid;
+	grid-column-gap: 50px;
+	grid-template-columns: auto auto auto;
+	background-color: #2196F3;
+	padding: 10px;
+}
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+</style>
+<!-- Stylesheet 2 !--><style>
+/* Transparent boxes */
+div.background {
+	background: url(klematis.jpg) repeat;
+	border: 2px solid black;
+}
+div.transbox {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: #00BFFF; /* The text was there, the background was the wrong color. A new beautiful shade of blue was added to fix this - April 6th 2019 */
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.transbox p {
+	margin: 1%; /* make sure this stays at 1%. At 5%, there is a large spacing issue between each new paragraph */
+	font-weight: bold;
+	color: #ffffff;
+}
+</style>
+<!-- Stylesheet 3 /!--><style>
+/* Sidebar */
+body {
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 16%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+</style>
+<!-- Stylesheet 4 !--><style>
+/* Topbar */
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+/* Dropdown */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+<!-- Stylesheet 5 !--><style>
+/* Headings */
+H1 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 15px;
+	font-size: large;
+	font-size: 150%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+H2 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+H3 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+H4 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+H5 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+H6 {
+	color: white;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 6 !--><style>
+/* Dividers, paragraphs */
+HR {
+	color: black;
+	font-family: "Liberation Serif";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+p {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 7 !--><style>
+/* Other rich text */
+i {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+u {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+b {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+s {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+sub {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+sup {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 8 !--><style>
+/* Details and summary */
+details {
+	color: black;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+summary {
+	color: black;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 9 !--><style>
+/* Progress bar 
+/* Option 1 */
+progress {
+	display:inline-block;
+	width:190px;
+	height:20px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border: 0;
+	border-radius: 15px;
+	text-align: left;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+progress::-webkit-progress-bar {
+	height:11px;
+	width:150px;
+	margin:0 auto;
+	background-color: #CCC;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress::-webkit-progress-value {
+	display:inline-block;
+	float:left;
+	height:11px;
+	margin:0px -10px 0 0;
+	background: #F70;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress:after {
+	margin:-26px 0 0 -7px;
+	padding:0;
+	display:inline-block;
+}
+/* Option 2 */
+#progress {
+	background: #333;
+	border-radius: 13px;
+	height: 20px;
+	width: 300px;
+	padding: 3px;
+}
+#progress:after {
+	content: '';
+	display: block;
+	background: orange;
+	width: 50%;
+	height: 100%;
+	border-radius: 9px;
+}
+/* Option 3 */
+#progressbar {
+	background-color: black;
+	border-radius: 13px;
+	/* (height of inner div) / 2 + padding */
+	padding: 3px;
+}
+#progressbar>div {
+	background-color: orange;
+	width: 40%;
+	/* Adjust with JavaScript */
+	height: 20px;
+	border-radius: 10px;
+}
+/* Option 4 */
+/* Step 1 */
+progress, /* All HTML5 progress enabled browsers */
+{
+	/* Turns off styling - not usually needed, but good to know. */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+/* Step 2 */
+/* IE10 */
+progress {
+	color: black;
+}
+/* Firefox */
+progress::-moz-progress-bar {
+	background: black;
+}
+/* Chrome */
+progress::-webkit-progress-value {
+	background: black;
+}
+/* Step 3 */
+progress[value^="9"]::-moz-progress-bar {
+background-color : red;
+}
+</style>
+<!-- Stylesheet 10 !--><style>
+/* rich text section 2 */
+p {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+P {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+b {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+B {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+u {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+U {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+s {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+S {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+i {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+I {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+sub {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+SUB {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+sup {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+SUP {
+	color: white;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 11 !--><style>
+/* form section */
+form {
+	color: white;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+FORM {
+	color: white;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+/* specialized button hyperlink section */
+a {
+	color: lime;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+A {
+	color: lime;
+	font-family: "Tahoma";
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 12 !--><style>
+/* WebGL compatibility layer */
+canvas {
+	border: 2px solid black;
+	background-color: black;
+}
+video {
+	display: none;
+}
+/* Gallery */
+div.gallery {
+	border: 1px solid #ccc;
+}
+div.gallery:hover {
+	border: 1px solid #777;
+}
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+* {
+	box-sizing: border-box;
+}
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+	.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+	.responsive {
+	width: 100%;
+	}
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+</style>
+<!-- Stylesheet 13 !--><style>
+/* Border image */
+#borderimg { 
+	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(border.png) 30 round;
+}
+</style>
+<!-- Stylesheet 14 !--><style>
+/* Scripting tags - syntax highlights for various languages, testing with Python 3 syntax */
+scri-none { /* Scri-none stands for non-identified script syntax. This text should show black if something is not written correctly, such as PRiNT instead of print */
+	font-family: "courier";
+	color: black;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+scri-blue1 {
+	font-family: "courier";
+	color: blue;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+scri-string1 {
+	font-family: "courier";
+	color: silver;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+scri-comment1 {
+	font-family: "courier";
+	color: green;
+	/*
+	font-size: 12.5px;
+	font-size: medium;
+	font-size: 125%
+	*/
+	text-shadow: 0px 0px #000000;
+}
+</style>
+<!-- Stylesheet 15 !--><style>
+/* Start of script */
+/* Default phrase tag CSS */
+/* Contains the default CSS for the default 6 HTML5 phrase tags */
+/* Tag list:
+1 | kbd (keyboard input)
+2 | em (emphasized text) (not to be confused with the pixel measurement metric (1em = 16px)
+3 | strong (strong text)
+4 | code (computer code/script)
+5 | var (variable (text))
+6 | samp (sample output)
+*/
+/* Start of tag list */
+/* KBD (Keyboard input) */
+kbd {
+	font-family: monospace;
+}
+/* HTML Sample:
+---
+ <kbd>Keyboard input</kbd> 
+---
+*/
+/* EM (Emphasized text) */
+em {
+	font-style: italic;
+}
+/* HTML Sample:
+---
+<em>Emphasized text</em>
+---
+*/
+/* STRONG (ttrong text) */
+strong {
+	font-weight: bold;
+}
+/* HTML Sample:
+---
+<em>Emphasized text</em>
+---
+*/
+/* CODE (Computer code/script) */
+code {
+	font-family: monospace;
+}
+/* HTML Sample:
+---
+ <code>A piece of computer code</code> 
+---
+*/
+/* VAR (Variable (text)) */
+var {
+	font-style: italic;
+}
+/* HTML Sample:
+---
+<var>Variable</var>
+---
+*/
+/* SAMP (Sample output) */
+samp {
+	font-family: monospace;
+}
+/* HTML Sample:
+---
+<samp>Sample output from a computer program</samp>
+---
+*/
+/* End of tag list */
+/* File version history
+V1: Created January 1st 2020
+*/
+/* File info:
+Size: 01,.366 bytes (01,.366 Kilobytes)
+Line count: 077
+Language: CSS3 (Cascade Style Sheets)
+Line indenting: UNIX(LF)
+Encoding: UTF-8 (With no UTF-8 characters)
+/* End of script */
+</style>
+<!-- Stylesheet 16 !--><style>
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: white;
+}
+HR.blank {
+	border: 10px solid green;
+	border-radius: 5px;
+}
+</style>
+<style>
+#overflowTest1_green {
+	background: #4CAF50;
+	color: white;
+	padding: 15px;
+	width: 80%;
+	height: 100px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+}
+#overflowTest1_silver {
+	background: silver;
+	color: white;
+	padding: 15px;
+	width: 80%;
+	height: 100px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+}
+#overflowTest1_red {
+	background: red;
+	color: white;
+	padding: 15px;
+	width: 80%;
+	height: 100px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+}
+HR.blank {
+	border: 10px solid brown;
+	border-radius: 5px;
+}
+</style>
+<!-- End of stylesheets !-->
+<?php
+// PHP section
+// "Echo"
+echo ("Hello World"); // Output: Hello World
+/* Or
+* "Print"
+*/
+print ("Hello World"); // Output: Hello World
+// Variable list
+$piSimple = "3.14";
+$HelloWorldStr = "Hello World";
+$HelloworldStr = "Hello world";
+$Int2__16 = "65536"; // My #1 memorized power of 2
+// End of variable list
+// Var list
+var x = 0; // X Coordinate
+var y = 0; // Y Coordinate
+var z = 0; // Z Coordinate
+var a = 0; // A Coordinate [4D MODE ONLY]
+// End ov Var list
+// Int list
+int testInt1 = "101";
+// End of int list
+// float list
+float decimal1 = "1.01";
+// End of float list
+// End of PHP section
+?>
+<script>
+// Start of script
+// Page JavaScript console
+console.log("SNU web console for [browser]");
+console.log("The SNU Martin Luther King JR Memorial page console");
+console.log(">>>");
+// End of script
+</script>
+<!-- Ruby support !-->
+<ruby>
+
+</ruby>
+<!--
+<ruby>
+<rt>
+<rp></rp>
+</rt>
+</ruby>
+!-->
+<!-- XML support !-->
+<xml>
+
+</xml>
+<!-- Divider !-->
+<TITLE>Martin Luther King JR Memorial page - SNU</TITLE><!-- Page title (remember to change this) !-->
+</HEAD>
+<!-- End of embedded scripting !-->
+<BODY BGCOLOR="BROWN"> <!-- Background color !-->
+<!-- Brief color list
+Black (000000)
+<BODY BGCOLOR="BLACK">
+White (FFFFFF)
+<BODY BGCOLOR="WHITE">
+Cyan (00FFFF)
+<BODY BGCOLOR="CYAN">
+Navy (000080)
+<BODY BGCOLOR="NAVY">
+Dark grey (333333)
+<BODY BGCOLOR="DARKGRAY">
+Light grey (777777)
+<BODY BGCOLOR="LIGHTGRAY">
+Red (FF0000)
+<BODY BGCOLOR="RED">
+Green (00FF00)
+<BODY BGCOLOR="GREEN">
+Turquiose (40E0D0)
+<BODY BGCOLOR="TURQUIOSE">
+Silver (######)
+<BODY BGCOLOR="SILVER">
+!-->
+<BODY BACKGROUND=".png"><!-- Background image !--> <!-- Allowed formats: .png .jpg .jpe .jif .gif .bmp .dib .tif .tiff !-->
+<!-- Top navigation bar !-->
+<div class="topnav">
+<a class="active" href="">[⚖ SNU MLK JR Memorial]</a><!-- Try to make the name stretch over the entire sidebar to near perfection !-->
+<a href="#PLACEHOLDER">(</a>
+<a href="about:blank">❎ Exit SNU</a><!-- empty link !--><!-- This button always exits the current SNU tab. This should be a built-in page on every browser (guaranteed to work on Chromium/Google Chrome and Mozilla Firefox !-->
+<a href="../!SNU2DSTART.html">⛺ <!-- Home page of mode !-->Home</a>
+<a href="#PLACEHOLDER">)</a>
+<i><a href="MartinLutherKingJR_SNUMemorial.html">In memory of Martin Luther King Jr.</a></i>
+<!-- Make sure it stays on a single line for all displays (until I can get a scrollbar in) try testing on displays with 1336 pixel width like I am !-->
+</div>
+<!-- Top navigation bar !-->
+<!-- Divider !-->
+<!-- Sidebar !-->
+<ul>
+<!-- <HR class="blank"> !-->
+<!-- Page title section can go here as well if desired !-->
+<!-- <HR class="blank"> !-->
+<img src="Graphics/Favicon/MLKMemorialFaviconFull.png" alt="Logo_Profile_Icon" width="225" height="225">
+<HR>
+<li><a class="active" href="#home">[SNU Martin Luther King JR Memorial page]</a></li>
+<HR>
+<details>
+	<summary><li><a href="#EXPLORE">[Index of the MLKJ archive]</a></li></summary>
+	</details>
+	<li><HR></li>
+	<details><summary><li id="">Sections of this page</li></summary>
+	<li><a href="#Top">Top of the page</a></li>
+	<li><a href="#Section_IHaveADreamSpeech">I have a dream speech</a></li>
+	<!-- Campaigns section !-->
+	<li><a href="#MegaSection_Campaigns">Campaigns</a></li>
+	<li><a href="#Section_MontgomeryBusBoycott">Montgomery Bus Boycott</a></li>
+	<li><a href="#Section_Section_Prayer_Pilgrimage_For_Freedom">Prayer Pilgrimage for Freedom</a></li>
+	<li><a href="#Section_Youth March for Integrated Schools">Youth March for Integrated Schools</a></li>
+	<li><a href="#Section_AlbanyMovement">Albany Movement</a></li>
+	<li><a href="#Section_BirminghamCampaign">Birmingham Campaign</a></li>
+	<li><a href="#Section_WalkToFreedom">Walk to Freedom</a></li>
+	<li><a href="#Section_MarchOnWashingtonForJobsAndFreedom">March on Washington for jobs and freedom</a></li>
+	<li><a href="#Section_StAugustineMovement">St. Augustine movement</a></li>
+	<li><a href="#Section_SelmaToMontgomeryMarches">Selma to Montgomery marches</a></li>
+	<li><a href="#Section_ChicagoOpenHousingMovement">Chicago open housing movement</a></li>
+	<li><a href="#Section_MarchAgainstFear">March against fear</a></li>
+	<li><a href="#Section_MemphisSanitationStrike">Memphis sanitation strike</a></li>
+	<li><a href="#Section_PoorPeoplesCampaign">Poor peoples campaign</a></li>
+	<!-- End of campaigns section !-->
+	<li><a href="#00Assasination">Assasination</a></li>
+	<li><a href="#00Legacy">Legacy</a></li>
+	<li><a href="#SnapshotSection">Snapshot section</a></li>
+	</details>
+	<li><HR></li>
+	<nav>
+	<li><b><u>Section titles navigation</u></b></li>
+	<li>* Section 1 (sections of ths page)</li>
+	</nav>
+	<HR>
+	<li>Copyleft SeanWallaWalla 2015-2020</li>
+	<li>SNU 2018-2020</li>
+	<HR>
+</ul>
+<!-- End of sidebar and topbar section !-->
+<div style="margin-left:15.1%;padding:1px 16px;height:1000px;">
+<!-- Page content starts here !-->
+<HR class="blank">
+<!-- File info (default)
+Line indent style: Unix (LF)
+Languages: HTML5, HTML4, CSS3, JS1.8, RUBY2.6, PHP 7.3
+Derived from: Sourcebase_SNUScriptStarter (version 1.07)
+!-->
+<article>
+<H1 id="Top">Welcome to the SNU Martin Luther King Jr Memorial page</H1>
+<img src="Graphics/MLK/Martin_Luther_King,_Jr..jpg" alt="JPG portrait of Martin Luther King Jr." width="464" height="696">
+<div id="overflowTest1_silver">
+<p>Martin Luther King Jr was a prominent civil rights activist during the civil rights movement in the United States of America in the 1950s and 1960s. This page is a memorial for his efforts.</p>
+<p>Martin Luther King Jr. was from Atlanta Georgia. During the Civil Rights movement, he made prominent peaceful protests, not fighting back with violence.</p>
+</div>
+<HR class="blank">
+<H1>Timeline</H1>
+<H2>1920s</H2>
+<H3>1929</H3>
+<p>January 15th 1929 - Martin Luther King Jr was born</p>
+<H2>1930s</H2>
+<H3>1930</H3>
+<p>Data not available</p>
+<H3>1931</H3>
+<p>Data not available</p>
+<H3>1932</H3>
+<p>Data not available</p>
+<H3>1933</H3>
+<p>Data not available</p>
+<H3>1934</H3>
+<p>Data not available</p>
+<H3>1935</H3>
+<p>Data not available</p>
+<H3>1936</H3>
+<p>Data not available</p>
+<H3>1937</H3>
+<p>Data not available</p>
+<H3>1938</H3>
+<p>Data not available</p>
+<H3>1939</H3>
+<p>Data not available</p>
+<H2>1940s</H2>
+<H3>1940</H3>
+<p>Data not available</p>
+<H3>1941</H3>
+<p>Data not available</p>
+<H3>1942</H3>
+<p>Data not available</p>
+<H3>1943</H3>
+<p>Data not available</p>
+<H3>1944</H3>
+<p>Data not available</p>
+<H3>1945</H3>
+<p>Data not available</p>
+<H3>1946</H3>
+<p>Data not available</p>
+<H3>1947</H3>
+<p>Data not available</p>
+<H3>1948</H3>
+<p>Data not available</p>
+<H3>1949</H3>
+<p>Data not available</p>
+<H2>1950s</H2>
+<H3>1950</H3>
+<p>Data not available</p>
+<H3>1951</H3>
+<p>Data not available</p>
+<H3>1952</H3>
+<p>Data not available</p>
+<H3>1953</H3>
+<p>Data not available</p>
+<H3>1954</H3>
+<p>Data not available</p>
+<H3>1955</H3>
+<p>Data not available</p>
+<H3>1956</H3>
+<p>Data not available</p>
+<H3>1957</H3>
+<p>Data not available</p>
+<H3>1958</H3>
+<p>Data not available</p>
+<H3>1959</H3>
+<p>Data not available</p>
+<H2>1960s</H2>
+<H3>1960</H3>
+<p>Data not available</p>
+<H3>1961</H3>
+<p>Data not available</p>
+<H3>1962</H3>
+<p>Data not available</p>
+<H3>1963</H3>
+<p>Data not available</p>
+<H3>1964</H3>
+<p>Data not available</p>
+<H3>1965</H3>
+<p>Data not available</p>
+<H3>1966</H3>
+<p>Data not available</p>
+<H3>1967</H3>
+<p>Data not available</p>
+<H3>1968</H3>
+<p>April 4th 1968 - Assasination</p>
+<p>Timeline under development.</p>
+<HR class="blank">
+<H1>Definining terms</H1>
+<H2 id="Define_Segregation">Segregation</H2>
+<p>Segregation is the process of separating people of color from white people. This was protected by Jim Crow Laws in the South of America in the late 1800s to the mid 1900s until it was deemed unconstitutional [source needed]</p>
+<H2 id="Define_Integration">Integration</H2>
+<p>Integration is the process of letting anyone go into an area, regardless of their differences. [source needed]</p>
+<H2 id="Define_JimCrowLaws">Jim Crow Laws</H2>
+<p>The Jim Crow Law was a law in the Southern parts of America that segregated people of color. This was known as "Separate but equal" and was made unconstitutional as the result of the civil rights movement [source needed]</p>
+<HR class="blank">
+<H1 id="Section_EarlyLifeAndEducation">Early life and education</H1>
+<p>Martin Luther King Jr. did very well in school, and skipped the 9th and 12th grades. At the age of 15, he was accepted into Morehouse College after passing the entry exam. At the time, Morehouse was desparate to fill their classrooms, as most people were going into World War 2.</p>
+<p>Dr. Martin Luther King Jr. received his
+<HR class="blank">
+<H1 id="Section_IncidentsWithTheFBI">Incidents with the FBI</H1>
+<p>During Dr. Martin Luther King Jrs. leadership, the FBI was doing things to try and bring him down. For example, the FBI wiretapped his phone calls constantly [source needed].</p>
+<p>In 1964, an anonymous package was sent to Coretta Scott and Dr. Martin Luther King Jr. which contained a threatening letter, and an incriminating tape. [source needed] even though it was anonymous, Martin Luther King assumed it was from the FBI.</p>
+<p>He thought the letter was telling him to commit suicide, others think it was a letter to tell him to step down from leadership, and or not accept the Nobel price [source needed]</p>
+<img src="Graphics/FBI/800px-Mlk-uncovered-letter.png" alt="Threatening letter from the FBI to MLK" width="800" height="1040">
+<p><b>An almost unredacted copy of the letter sent to Martin Luther King Jr. credit <a href="https://en.wikipedia.org/wiki/FBI-King_suicide_letter#/media/File:Mlk-uncovered-letter.png">Wikimedia commons</a></b></p>
+<details><summary><p id="Section_TranscriptFBISuicideLetter"><u>Transcript (click to expand)</u></p></summary>
+<p><i>King,</i></p>
+<p><i>In view of your low grade, abnormal personal behavoir I will not dignify your name with either a Mr. or a Reverand or a Dr. And, your last name calls to mind only the type of king such as King Henry  the VIII and his countless acts of adultery and immoral conduct lower than that of a beast.</i></p>
+<p><i>King, look into your heart. You know you are a complete fraud and a great liability to all of us Negroes. White people in this country have had enough frauds of their own but I am sure they don't have one at this time that is any where near your equal. You are no clergyman and you know it. I repeat you are a colossal fraud and an evil, vicious one at that. You could not believe in God and act as you do. Clearly you don't believe in any personal moral principles</i></p>
+<p><i>King, like all frauds your end is approaching. You could have been our greatest leader. You, even at an early age have turned out to be not a leader but a dissolute, abnormal moral imbecile. We will have to depend on our older leaders like Wilkins a man of character and thank God we have other leaders like him. But you are done. Your "honorary" degrees, your Nobel prize (what a grim force) and other awards won't save you. King, I repeat you are done.</i></p>
+<p><i>No person can overcome facts, not even a fraud like yourself. Lend your sexually psychotic ear to the enclosure. You will find yourself and in all your dirt, filth, evil and moronic talk exposed on the record for all time. I repeat - no person can argue successfully against facts. You are finished. You will find on the record for all time your filthy, dirty, evil companions, male and females giving expression with you to your hidious abnormalities. And some of them pretend to be ministers of thr Gospel. Satan could not do more. What incredible evilness. It is all there on the record, your sexual orgies. Listen to yourself you filthy, abnormal animal. You are on the record. You have been on the record - all your adulterious acts, your sexual orgies extending far into the past. This one is but a tiny sample. You will understand this. Yes, from your various evil playmates on the east coast to ||||||||| and others on the west coast, and outside the country you are on the record. King you are done.</i></p>
+<p><i>The American public, the church organizations that have been helping - Protestant, Catholic, and Jews will know you for what you are - an evil, abnormal beast. So will the others who have backed you. You are done.</i></p>
+<p><i>King, there is only one thing left for you to do. You know what it is. You have just 34 days in which to do (this exact number has been selected for a specific reason, it has definite practical significant. You are done. There is but one way out for you. You better take it before your filthy,abnormal fraudulant self Is bared to to the nation.</i></p>
+<H4>Plain text copy</H4>
+<p>Note:</p>
+<p>I rewrote the entire document in text form, as I can't find another source for it. It took me about 15 minutes, it is slightly difficult to read due to the page quality and the marks.</p>
+<p>I am also including download links for anyone who wants to use it.</p>
+<textarea rows="25" cols="135">
+King,
+In view of your low grade, abnormal personal behavoir I will not dignify your name with either a Mr. or a Reverand or a Dr. And, your last name calls to mind only the type of king such as King Henry  the VIII and his countless acts of adultery and immoral conduct lower than that of a beast.
+King, look into your heart. You know you are a complete fraud and a great liability to all of us Negroes. White people in this country have had enough frauds of their own but I am sure they don't have one at this time that is any where near your equal. You are no clergyman and you know it. I repeat you are a colossal fraud and an evil, vicious one at that. You could not believe in God and act as you do. Clearly you don't believe in any personal moral principles
+King, like all frauds your end is approaching. You could have been our greatest leader. You, even at an early age have turned out to be not a leader but a dissolute, abnormal moral imbecile. We will have to depend on our older leaders like Wilkins a man of character and thank God we have other leaders like him. But you are done. Your "honorary" degrees, your Nobel prize (what a grim force) and other awards won't save you. King, I repeat you are done.
+No person can overcome facts, not even a fraud like yourself. Lend your sexually psychotic ear to the enclosure. You will find yourself and in all your dirt, filth, evil and moronic talk exposed on the record for all time. I repeat - no person can argue successfully against facts. You are finished. You will find on the record for all time your filthy, dirty, evil companions, male and females giving expression with you to your hidious abnormalities. And some of them pretend to be ministers of thr Gospel. Satan could not do more. What incredible evilness. It is all there on the record, your sexual orgies. Listen to yourself you filthy, abnormal animal. You are on the record. You have been on the record - all your adulterious acts, your sexual orgies extending far into the past. This one is but a tiny sample. You will understand this. Yes, from your various evil playmates on the east coast to ||||||||| and others on the west coast, and outside the country you are on the record. King you are done.
+The American public, the church organizations that have been helping - Protestant, Catholic, and Jews will know you for what you are - an evil, abnormal beast. So will the others who have backed you. You are done.
+King, there is only one thing left for you to do. You know what it is. You have just 34 days in which to do (this exact number has been selected for a specific reason, it has definite practical significant. You are done. There is but one way out for you. You better take it before your filthy,abnormal fraudulant self Is bared to to the nation.
+</textarea>
+<H2><button><a href="">Copy (unavailable, for now just select and [right click -> copy] [CTRL + C] [COMMAND + C]</a></button></H2>
+<p>Downloads</p>
+<H2><button><a href="Doc/FBI/TXT/FBIKingSuicideLetterTXT.txt">Download as plain text (2,786 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/PDF/FBIKingSuicideLetterPDF.pdf">Download as PDF (14,149 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/ODT/FBIKingSuicideLetterODT.odt">Download as ODT (24,169 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/EPUB/FBIKingSuicideLetterEPUB.epub">Download as EPUB (3,713 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/UOT/FBIKingSuicideLetterUOT.uot">Download as UOT (29,546 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/DOC/FBIKingSuicideLetterDOC.doc">Download as DOC (14,848 bytes)</a></button></H2>
+<H2><button><a href="Doc/FBI/DOCX/FBIKingSuicideLetterDOCX.docx">Download as DOCX (5,607 bytes)</a></button></H2>
+</details>
+<H1>FBI plan to disrupt the poor peoples campaign</H1>
+<img src="Graphics/FBI/page1-220px-FBI_PPC_1.pdf.jpg" alt="FBI2" width="220" height="330">
+<p>FBI director J. Edgar Hoover personally ordered surveillance of King, with the intent to undermine his power as a civil rights leader. [sources needed] The FBI wiretapped king frequently, and part of the COINTELPRO, the FBI attempted to disrupt the poor peoples campaign due to their fears of his anti-war and civil rights movement. [source needed]</p>
+<p>Unfortunately, King was assasinated before he could participate in the Poor Peoples Campaign [source needed]</p>
+<p>Plain text copy</p>
+<p>Note:</p>
+<p>Not available</p>
+<textarea rows="3" cols="135">
+Not yet available
+I haven't had the time to scan and rewrite the document by hand yet.
+Unable to translate, too blurry
+</textarea>
+<p>
+</p>
+<p><i>More content coming soon</i></p>
+<H1>Issues with the NSA</H1>
+<p>Due to allegations of communism, Dr. Martin Luther King was actively pursued by multiple government agencies, including the NSA. [source needed]</p>
+<p>In a secret operation known as Minaret [source needed] the National Security Agency [needs expansion]
+<p>
+</p>
+<p><i>More content coming soon</i></p>
+<H1>Issues with the CIA</H1>
+<p>Due to allegations of communism, Dr. Martin Luther King was actively pursued by multiple government agencies, including the CIA. [source needed]</p>
+<p>[needs expansion]
+<p>
+</p>
+<p><i>More content coming soon</i></p>
+<!-- Start of campaigns section !-->
+<H1 id="MegaSection_Campaigns">Campaigns</H1>
+<p>Martin Luther King went through many campaigns to fight for civil rights.</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_MontgomeryBusBoycott">Montgomery bus boycott</H2>
+<img src="Graphics/RosaParks/TIFF/Rosa_Parks_(detail).tiff" alt="Rosa Parks and MLK, failed to load TIFF image. Your browser is not compatible, loading PNG instead..." width="560" height="377"><br>
+<img src="Graphics/RosaParks/PNG/lossless-page1-560px-Rosa_Parks_(detail).tiff.png" alt="Ros Parks and MLK" width="560" height="377"><br>
+<p><b>Rosa Parks with Martin Luther King Jr in 1955</b></p>
+<p>The Montgomery bus boycott was a protest led by Martin Luther King over segregation on city buses. One of the major events that sparked the protest was when Rosa Parks was jailed and beaten for refusing to give up her seat for a white man.</p>
+<p>The Montgomery bus boycott lasted from December 5th 1955 to December 20th 1956 (1 year 15 days) the protest was successful. 75% of the bus riders were in the protest, and after the bus system suffered, a decision was made to end segregation on bus systems in the south.</p>
+<p>The campaign was successful, and ended segregation on bus systems in the South of America.</p>
+<p>This campaign helped make Martin Luther King stand out more in his civil rights quest.</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_Prayer_Pilgrimage_For_Freedom">Prayer pilgrimage for freedom</H2>
+<p>The Prayer Pilgrimage for Freedom was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_Youth March for Integrated Schools">Youth March for Integrated Schools</H2>
+<p>The Youth March for Integrated Schools was a campaign by 
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_AlbanyMovement">Albany Movement</H2>
+<p>The Albany movement was a campaign by
+<p>
+</p>
+<H2 id="Section_SecondEmancipationProclamation">Second Emancipation Proclamation</H2>
+<p>The second Emancipation Proclamation was an idea by Dr. Martin Luther King Jr. he delivered to then-president John F. Kennedy about an update to the emancipation proclamation regarding segregation and black rights on the 100th anniversary of the original Proclamation.</p>
+<p>King states that even after 100 years, not enough progress was made, and there were still issues going on with the treatment of colored people [source needed]</p>
+<!-- Direct copy from Wikipedia, needs to be rewritten in your own words
+On March 24, 1962, King announced that he had been invited by President Kennedy to submit for the President's signature a "second Emancipation Proclamation".[3] King and his legal staff declared that they would have the document ready on May 17, 1962, the eighth anniversary of the decision of Brown v. Board of Education.
+!-->
+<p>On March 24, 1962, Dr. King announced that he had been invited by President Kennedy to submit for the President's signature a "second Emancipation Proclamation".[source needed] <!-- Adding in Dr. to make it more official !--> Dr. King and his legal staff declared that they would have the document ready on May 17, 1962, on the eighth anniversary of the decision of Brown v. Board of Education. [source needed]</p>
+<p>Unfortunately, the decision did not go through on time, there would still be several more years until Martin Luther Kings goals got closer.</p>
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_BirminghamCampaign">Birmingham Campaign</H2>
+<p>The Birmingham Campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_WalkToFreedom">Walk to Freedom</H2>
+<p>The Walk to Freedom Campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_MarchOnWashingtonForJobsAndFreedom">March on Washington for jobs and freedom</H2>
+<img src="Graphics/MLK/170px-March_on_Washington_edit.jpg" alt="The March on Washington" width="170" height="254">
+<p>The March on Washington for jobs and freedom campaign was a campaign by 6 of the leaders of the SCLC, including Martin Luther King Jr. [source needed] during this event in 1963, Dr. Martin Luther King, along with thousands of African Americans marched to the Lincoln Memorial in Washington DC [Possible accuracy needed]</p>
+<p>When the goal was finally reached, Dr. Martin Luther King Jr. delivered his most famous speech, the I have a dream speech.</p>
+<img src="Graphics/MLK/170px-Martin_Luther_King_-_March_on_Washington.jpg" alt="King Delivering his speech" width="170" height="184">
+<p>This 17 minute speech held many important messages, including:</p>
+<p><i>I say to you today, my friends, so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.</p>
+<p>I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident: that all men are created equal.'</p>
+<p>I have a dream that one day on the red hills of Georgia the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.</p>
+<p>I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.</p>
+<p>I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.</p>
+<p>I have a dream today.</p>
+<p>I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of interposition and nullification; one day right there in Alabama, little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.</p>
+<p>I have a dream today. </i></p>
+<H2 id="Section_IHaveADreamSpeech">I have a dream speech</H2>
+<audio controls>
+	<source src="Audio/OGG/MLKDream.ogg" type="audio/ogg">
+	Your browser does not support the audio element.
+</audio> 
+<p>Duration: 16 minutes 27 seconds (987 seconds)</p>
+<p>Date: 1963-08-28 00:00:00 </p>
+<p>This work is in the public domain</p>
+<details><summary><p>Other media types</p></summary>
+<p><button><a href="Audio/!ViaArchive.org/">Via archive.org</a></button></p>
+<p><button><a href="Audio/FLAC/MLKDream.flac">MLKDream.flac (FLAC audio file)</a></button></p>
+<p><button><a href="Audio/MP3 (64K)/MLKDream_64kb.mp3">MLKDream_64kb.mp3 (64KBPS MP3 audio file)</a></button></p>
+<p><button><a href="Audio/WAV/MLKDream.wav">MLKDream.wav (WAV audio file)</a></button></p>
+<p><button><a href="Audio/OGG/MLKDream.ogg">MLKDream.ogg (OGG Vorbis audio file)</a></button></p>
+</details>
+<p>Martin Luther Kings most famous speech was his "I have a dream" speech. In this speech, Martin Luther King Jr. spoke at the lincoln memorial and talked about human rights and the fight for human rights.</p>
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_StAugustineMovement">St. Augustine movement</H2>
+<p>The St. Augustine movement campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_SelmaToMontgomeryMarches">Selma to Montgomery Marches</H2>
+<p>The Selma to Montgomery Marches campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_ChicagoOpenHousingMovement">Chicago Open Housing Movement</H2>
+<p>The Chicago Open Housing movement campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_MarchAgainstFear">March against fear</H2>
+<p>The March Against Fear was a protest led by 
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_MemphisSanitationStrike">Memphis sanitation strike</H2>
+<p>The Memphis Sanitation Strike campaign was a campaign by
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="Section_PoorPeoplesCampaign">Poor peoples campaign</H2>
+<p>The Poor Peoples campaign was a campaign by Martin Luther King Jr. that happened in 1968. Unfortunately, before the campaign could start, Martin Luther King Jr. was assasinated by James Earl Ray. The campaign continued without him, and 
+<p>
+</p>
+<p><i>This section needs expansion.</i></p>
+<!-- End of campaigns sections !-->
+<H2 id="Section_ThoughtsOnVietnam">Martin Luther Kings thoughts on the Vietnam War</H2>
+<p>Late in his career, Dr. Martin Luther King alienated himself from his allies by his public opposition of the Vietnam war. This also caused the FBI to target him further. [source needed]</p>
+<img src="Graphics/MLK/220px-Martin_Luther_King_Jr_St_Paul_Campus_U_MN.jpg" alt="Cannot find JPG image" width="220" height="151">
+<p><i>King speaking to an anti-Vietnam war rally at the University of Minnesota in St. Paul, April 27, 1967</i></p>
+<H2 id="Section_WhyIAmOpposedToVietnamSpeech">Why I am opposed to the Vietnam War speech</H2>
+<audio controls>
+	<source src="Audio/WhyIAmOpposedToTheVietnamWar/MartinLutherKingJr.ogg" type="audio/ogg">
+	Your browser does not support the audio element.
+</audio>
+<p>Duration: 42 minutes 6 seconds (2526 seconds)</p>
+<p>Date: 1967-04-30</p>
+<p>This work is in the public domain</p>
+<p><a href="https://archive.org/details/MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam">Credit to archive.org for the audio source</a></p>
+<details><summary><p>Other media types</p></summary>
+<p><a href="Audio/!ViaArchive.org/UNZIPPED/MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam/">Via archive.org</a></p>
+<p><a href="Audio/WhyIAmOpposedToTheVietnamWar/MartinLutherKingJr.mp3">MartinLutherKingJr.mp3 (MP3 audio file)</a></p>
+<p><a href="Audio/WhyIAmOpposedToTheVietnamWar/MartinLutherKingJr.ogg">MartinLutherKingJr.ogg (OGG Vorbis audio file)</a></p>
+</details>
+<HR id="Blank">
+<H2 id="NearDeathExperience">Near death experience</H2>
+<p>On September 20th 1958, Martin Luther King was signing copies of his book: stride towards freedom where he escaped death. A black women with a mental illness (Izola Curry) came up and stabbed him in a chest with a letter opener, as she thought he was "conspiring against her with communists"</p>
+<p>Martin Luther King underwent emergency surgery where he remained hospitalized for several weeks. Izola Curry was later found mentally incompetent to stand trial. [source needed]</p>
+<HR class="blank">
+<H2 id="00Assasination">Assassination</H2>
+<p>Martin Luther King Jr. was assasinated on April 4, 1968 at 6:01 p.m. He was shot by James Earl Ray on the second floor balcony of the Lorraine Motel. He died of a fatal gunshot wound at 7:05 pm after emergency chest surgery. He was 39 years old. [source needed]This was before his final campaign: the poor people campaign.</p>
+<p>James Earl Ray was sentenced to 99 years in prison, which was pretty much a life sentence. James died in prison in the year 1998 to hepatitis [source needed]</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="00Legacy">Legacy</H2>
+<p>Martin Luther King Jr. left behind a massive historical legacy in American human rights. A holiday was made for him in 1971, and was made official by President Ronald Reagan in 1983, however it wasn't celebrated in all 50 states until the year 2000. Martin Luther King day is celebrated on the 3rd Monday of every month.</p>
+<p>Martin Luther King Jr. helped end racial segregation in the United States of America, and is known as a famous figure in human rights.</p>
+<p>Starting in 2020, Martin Luther King Jr. is planned to be the face on the back of the $5.00 bill (5 dollar bill)</p> 
+</p>
+<p><i>This section needs expansion.</i></p>
+<H2 id="00Inspirations">Inspirations</H2>
+<p>Martin Luther King Jr. got his inspirations from other civil rights activists. One such activist was Mahatma Gandhi. Mahatma Gandhi was an indian peaceful protester who didn't use violence to protest.</p>
+<HR class="blank">
+<H2 id="OtherEventsInTheCivilRightsMovement">Other events in the Civil Rights movement</H2>
+<H3>Murder of Harry and Harriette Moore</H3>
+<p>Harry Moore was one of the first major civil rights leaders in the 20th century (1900-1999) and took the first steps that started the civil rights movement. [source needed] Harry, with his wife Harriette Moore, worked as [source needed]</p>
+<p><i>This section needs expansion</i></p>
+<HR class="blank">
+<p>This article is incomplete, more content coming soon. I will be working on this article up through Martin Luther King day on January 20th 2020, and further. This is just the very basics at the momet.</p>
+</article>
+<HR class="blank">
+<section>
+<H2>Sources</H2>
+<p>Note: I will eventually add in sources other than Wikipedia when I can find good safe and reliable sources. For now, this is my best option</p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.">1. Wikipedia page on Martin Luther King Jr.</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Early_life_and_education">2. Wikipedia info on MLKs early life </a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Morehouse_College">3. Wikipedia info on MLKs time at Morehouse College</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Crozer_Theological_Seminary">4. Wikipedia info on MLKs Crozer Theologicial Seminary</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Doctoral_studies">5. Wikipedia info on MLKs doctorial studies</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Montgomery_bus_boycott,_1955">6. Wikipedia info on the Montgomery bus boycott</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Southern_Christian_Leadership_Conference">7. Wikipedia info on MLK and the Southern Christian Leadership Conference (SCLC)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Albany_Movement,_1961">8. Wikipedia info on MLK and the Albany movement (1961)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Birmingham_campaign,_1963">9. Wikipedia info on MLK and the Birmingham campaign (1963)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#St._Augustine,_Florida,_1964">10. Wikipedia info on MLK and St. Augustine Florida (1964)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Selma,_Alabama,_1964">11. Wikipedia info on MLK and Selma Alabama (1964)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#New_York_City,_1964">12. Wikipedia info on MLK and New York City (1964)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#March_on_Washington,_1963">13. Wikipedia info on MLK and the March on Washington (1963)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Selma_voting_rights_movement_and_%22Bloody_Sunday%22,_1965">14. Wikipedia info on MLK and the Selma voting rights movement + bloody Sunday (1965)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Chicago_open_housing_movement,_1966">15. Wikipedia info on MLK and the Chicago Open Housing Movement (1966)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Opposition_to_the_Vietnam_War">16. Wikipedia info on MLK's opposition to the Vietnam war</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Correspondence_with_Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh">17. Wikipedia info on MLK and the Vietnamese Monk Thích Nhất Hạnh</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Poor_People's_Campaign,_1968">18. Wikipedia info on MLK and the Poor Peoples campaign</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#After_King's_death">19. Wikipedia info on after the death of MLK</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Assassination_and_aftermath">20. Wikipedia info on MLK's assasination and the immediate aftermath</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Aftermath">21. Wikipedia info on the Aftermath of the assasination of Dr. Martin Luther King Jr.</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Allegations_of_conspiracy">22. Wikipedia info on the allegations of conspiracy of MLK's death</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Legacy">23. Wikipedia info on MLK's legacy</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Martin_Luther_King_Jr._Day">24. Wikipedia info on Martin Luther King Jr. Day</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Liturgical_commemorations">25. Wikipedia info on Lithurgical commemorations for Dr. Martin Luther King Jr.</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#UK_legacy_and_The_Martin_Luther_King_Peace_Committee">26. Wikipedia info on MLK's legacy in the United Kingdom + The Martin Luther King Peace Committee</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Loss_of_materials">27. Wikipedia info on the loss of MLK material in the 2008 Universal Studios fire</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Ideas,_influences,_and_political_stances">28. Wikipedia info on MLKs ideas, influences, and political stances</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Religion">29. Wikipedia info on MLK's thoughts and beliefs on Religion (Christianity)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Nonviolence">30. Wikipedia info on MLKs influences on non-violence</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Activism_and_involvement_with_Native_Americans">31. Wikipedia info on MLKs activism involvement with Native Americans</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Politics">32. Wikipedia info on MLK's political views</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Compensation">33. Wikipedia info on MLK's compensation</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.#Family_Planning">34. Wikipedia info on MLK's family planning</a></p>
+<template>
+Add in Wikipedia anchor links between here
+</template>
+<p><a href="https://en.wikipedia.org/wiki/Montgomery_bus_boycott">xx. Wikipedia page on the Montgomery bus boycott</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Prayer_Pilgrimage_for_Freedom">xx. Wikipedia page on the Prayer Pilgrimage for Freedom</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Youth_March_for_Integrated_Schools_(1959)">xx. Wikipedia page on the Youth March for integrated schools (1959)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Albany_Movement">xx. Wikipedia page on the Albany movement</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Birmingham_campaign">xx. Wikipedia page on the Birmingham campaign</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Detroit_Walk_to_Freedom">xx. Wikipedia page on the Walk to Freedom (Detroit Walk to Freedom)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom">xx. Wikipedia page on the March on Washington for Jobs and Freedom</a></p>
+<p><a href="https://en.wikipedia.org/wiki/St._Augustine_movement">xx. Wikipedia page on the St. Augustine movement</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches">xx. Wikipedia page on the Selma to Montgomery marches</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Chicago_Freedom_Movement">xx. Wikipedia page on the Chicago Open Housing Movement (Chicago Freedom Movement)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Memphis_sanitation_strike">xx. Wikipedia page on the Memphis sanitation strike</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Poor_People%27s_Campaign">xx. Wikipedia page on the Poor Peoples campaign</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">xx. Wikipedia page on Mahatma Gandhi</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Malcolm_X">xx. Wikipedia page on Malcolm x</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson">xx. Wikipedia page on Lyndon B. Johnson</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Rosa_Parks">xx. Wikipedia page on Rosa parks</a></p>
+<p><a href="https://en.wikipedia.org/wiki/FBI%E2%80%93King_suicide_letter">xx. Wikipedia page on the MLK FBI Suicide letter</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Murder_of_Harry_and_Harriette_Moore">xx. Wikipedia page on the Murder of Harry and Harriete Moore</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Second_Emancipation_Proclamation">xx. Wikipedia page on the proposed second emancipation proclamation</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Day">xx. Martin Luther King Jr. Day (MLK day) on Wikipedia</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Memorial">xx. Wikipedia page on the Martin Luther King Jr. memorial</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Harriette_Moore">xx. Wikipedia page on Harriette Moore</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Harry_T._Moore">xx. Wikipedia page on Harry T. Moore</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Malcolm_X">xx. Wikipedia page on Malcolm X</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Project_MINARET">xx. Wikipedia page on the NSA Project MINARET</a></p>
+<p><a href="https://en.wikipedia.org/wiki/National_Security_Agency">xx. Wikipedia page on the National Security Agency (NSA)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/FBI">xx. [link needs update] Wikipedia page on the Federal Bureau of Investigation (FBI)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/CIA">xx. [Link needs update] Wikipedia page on the Central Intelligence Agency (CIA)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Southern_Christian_Leadership_Conference">xx. Wikipedia page on the SCLC (Southern Christian Leadership Conference)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Red_Scare">xx. Wikipedia page on the Red Scare, the fear of communism in countries like the United States of America during the Cold War</a></p>
+<p><a href="https://en.wikipedia.org/wiki/John_F._Kennedy">xx. Wikipedia page on John F. Kennedy, the president during Martin Luther Kings rise who was assasinated</a></p>
+<p><a href="https://en.wikipedia.org/wiki/J._Edgar_Hoover">xx. Wikipedia page on J. Edgar Hoover (not to be confused with President Hoover) the FBI director during the time</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Civil_rights_movement">xx. Wikipedia page on the Civil rights movement</a></p>
+<p><a href="https://en.wikipedia.org/wiki/I_Have_a_Dream">xx. Wikipedia page on the I have a dream speech</a></p>
+<p><a href="https://en.wikipedia.org/wiki/COINTELPRO">xx. Wikipedia page on the COINTELPRO FBI program</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Washington_High_School_(Atlanta)">xx. Wikipedia page on the high school Dr. Martin Luther King went to (then: Booker T. High school, now: Washington high school (Atlanta)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/2008_Universal_fire">xx. Wikipedia page on the 2008 Universal fire, which destroyed priceless audio recordings from hundreds of artists</a></p>
+<p>A lot of my knowledge from this also comes from my US history class in high school from last year</p>
+</section>
+<HR class="blank">
+<section>
+<details><summary><H2 id="SnapshotSection">View older versions of this page<a href="#SnapshotSection">¶</a></H2></summary>
+<H3>Snapshots 1 to 10</H3>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot1.html">Snapshot 1 (January 16th 2020)</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot2.html">Snapshot 2 (January 17th 2020)</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot3.html">Snapshot 3 (January 18th 2020)</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot4.html">Snapshot 4 (January 22nd 2020)</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot5.html">Snapshot 5 (January 23rd 2020)</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot6.html">Snapshot 6 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot7.html">Snapshot 7 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot8.html">Snapshot 8 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot9.html">Snapshot 9 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot10.html">Snapshot 10 ()</a></button></H4>
+<H3>Snapshots 11 to 20</H3>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot11.html">Snapshot 11 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot12.html">Snapshot 12 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot13.html">Snapshot 13 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot14.html">Snapshot 14 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot15.html">Snapshot 15 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot16.html">Snapshot 16 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot17.html">Snapshot 17 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot18.html">Snapshot 18 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot19.html">Snapshot 19 ()</a></button></H4>
+<H4><button><a href="MartinLutherKingJR_SNUMemorial_Snapshot20.html">Snapshot 20 ()</a></button></H4>
+</details>
+</section>
+<HR class="blank">
+<header>
+<!-- Bottom of page !-->
+<H1>You have reached the bottom of this page.</H1>
+</header>
+<HR class="blank">
+<footer>
+<!--<p>Footer content here</p>!-->
+<p>Footer not yet set up</p>
+<!-- Footer can be pinned or unpinned, pinned footer scripting is unavailable right now !-->
+</footer>
+<!-- Bottom script (filler) !-->
+</HR>
+</BODY>
+<!-- </BODY> !-->
+<!-- This page was built off the basis of SNU Sourcebase HTML scriptstarter 1.08 - December 30th 2019 build !-->
+</HTML>
+<!-- Bottom script (filler) !-->
+<!--- end of script !--->
