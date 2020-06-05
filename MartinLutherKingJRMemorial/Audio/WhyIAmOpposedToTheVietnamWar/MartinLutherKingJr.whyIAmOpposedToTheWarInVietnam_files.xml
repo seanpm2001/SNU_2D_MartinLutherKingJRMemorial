@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="MartinLutherKingJr.mp3" source="derivative">
+    <title>Martin Luther King, Jr</title>
+    <track>01</track>
+    <bitrate>128</bitrate>
+    <length>42:06</length>
+    <format>VBR MP3</format>
+    <original>MartinLutherKingJr.ogg</original>
+    <mtime>1414986006</mtime>
+    <size>40286208</size>
+    <md5>ad65a25e0b42f83f2532a0f6e6007b82</md5>
+    <crc32>6722d623</crc32>
+    <sha1>36575b79671656fafa912d7db62f1fff374a5848</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MartinLutherKingJr.ogg" source="original">
+    <title>Martin Luther King, Jr</title>
+    <format>Ogg Vorbis</format>
+    <md5>760aa637e38f81e651d6c61a387c9c14</md5>
+    <track>01</track>
+    <mtime>1246612088</mtime>
+    <size>28496127</size>
+    <crc32>d4722922</crc32>
+    <sha1>f45ff28b045b9328beed76e2b26b9186fbe056a5</sha1>
+    <length>2526.33</length>
+    <height>0</height>
+    <width>0</width>
+    <external-identifier-match-date>acoustid:2019-04-05T02:03:23Z</external-identifier-match-date>
+    <external-identifier>urn:acoustid:95fd9cf9-c1ba-4015-8ceb-e1647841841c</external-identifier>
+  </file>
+  <file name="MartinLutherKingJr.png" source="derivative">
+    <format>PNG</format>
+    <original>MartinLutherKingJr.mp3</original>
+    <mtime>1414986645</mtime>
+    <size>9802</size>
+    <md5>393aa6fabc863bb98a87f2d3f4a9decf</md5>
+    <crc32>1f062939</crc32>
+    <sha1>1d38a8df5acd9bd4a520c7a9644b02322a327691</sha1>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_archive.torrent" source="metadata">
+    <btih>3170237a03be393fe9ec0209754fedb909da1a3f</btih>
+    <mtime>1554429814</mtime>
+    <size>6737</size>
+    <md5>3d4910227130d4870440187234bae741</md5>
+    <crc32>36f1da91</crc32>
+    <sha1>b10b6a5f71f1eb003dc90a079f15abf97e08795e</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_files.xml" source="metadata">
+    <format>Metadata</format>
+    <md5>5194e6501324f60b81038d15b123525d</md5>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_meta.xml" source="metadata">
+    <format>Metadata</format>
+    <mtime>1554429812</mtime>
+    <size>1188</size>
+    <md5>9b5110d0cecb2dc83285e603f09c94f7</md5>
+    <crc32>42c8c558</crc32>
+    <sha1>0d3ba0554065b1ca549b67e5610a575f42ce9326</sha1>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_reviews.xml" source="original">
+    <mtime>1481997654</mtime>
+    <size>909</size>
+    <md5>de2547053124eee753be60f595e8890f</md5>
+    <crc32>8d1afcd8</crc32>
+    <sha1>d00f647a0cb82ad9d95371681a833e57f17b256f</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_vbr.m3u" source="derivative">
+    <format>VBR M3U</format>
+    <original>MartinLutherKingJr_vbr.mp3</original>
+    <md5>ea463da3874de5479b930671bef46888</md5>
+    <mtime>1246612393</mtime>
+    <size>109</size>
+    <crc32>df6423e</crc32>
+    <sha1>e44f44ed4c1e87edc49e2f3bc6d3a89b1e15f41a</sha1>
+  </file>
+  <file name="MartinLutherKingJr.whyIAmOpposedToTheWarInVietnam_vbr_mp3.zip" source="derivative">
+    <format>VBR ZIP</format>
+    <original>MartinLutherKingJr_vbr.mp3</original>
+    <md5>637b9f66eedadbf638b8a6e95cc78145</md5>
+    <mtime>1246612390</mtime>
+    <size>33471311</size>
+    <crc32>61bbed8b</crc32>
+    <sha1>ed3783c14f928a189e8095d03a0ae3ee58c900cf</sha1>
+    <length>6694.26</length>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MartinLutherKingJr_vbr.mp3" source="derivative">
+    <title>Martin Luther King, Jr</title>
+    <bitrate>105</bitrate>
+    <length>42:06</length>
+    <format>VBR MP3</format>
+    <original>MartinLutherKingJr.ogg</original>
+    <md5>917807710a71747fd6caa55f8dfbb059</md5>
+    <mtime>1246612382</mtime>
+    <size>33471127</size>
+    <crc32>e20ca687</crc32>
+    <sha1>f86a3e1b92cff527d1c3b220007612fc3c6d70ed</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="MartinLutherKingJr_vbr.png" source="derivative">
+    <format>PNG</format>
+    <original>MartinLutherKingJr_vbr.mp3</original>
+    <mtime>1414986298</mtime>
+    <size>9644</size>
+    <md5>f4364d596fe634a895da05a91d821900</md5>
+    <crc32>4be1da46</crc32>
+    <sha1>ec35b86665e41e727644b11595edbd1fc07cfcbd</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1541635926</mtime>
+    <size>2465</size>
+    <md5>809680ba4b2c7104b752068cc240f3c7</md5>
+    <crc32>4cae62f2</crc32>
+    <sha1>4ffa4aefe5181e0e71640252db974c1d0f4b1a55</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+</files>
